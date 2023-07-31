@@ -1,0 +1,8 @@
+{
+    "id": "key-display",
+    "version": "1.0.0",
+
+    "title": "Key Displayer",
+    "description": "Shows all key counts from all dungeons. Intended for a randomizer.",
+    "prestart": "prestart.js"
+}
