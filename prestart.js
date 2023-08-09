@@ -82,6 +82,7 @@ sc.DungeonKeyHud = ig.GuiElementBase.extend({
     updateVisibility() {
         if(!sc.map.currentArea) return;
         this.numberGui.setColor(sc.map.currentArea.path == this.area ? sc.GUI_NUMBER_COLOR.WHITE : sc.GUI_NUMBER_COLOR.GREY)
+        this.updateItemCount();
     },
     updateItemCount() {
         let area = sc.map.areas[this.area];
