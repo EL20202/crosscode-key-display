@@ -1,6 +1,6 @@
 {
     "id": "key-display",
-    "version": "1.0.0",
+    "version": "1.0.1",
 
     "title": "Key Displayer",
     "description": "Shows all key counts from all dungeons. Intended for a randomizer.",
